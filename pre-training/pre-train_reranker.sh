@@ -1,0 +1,18 @@
+python ../run_main.py --output_dir /home/user_name/legal/ckpts/0921_merged_8neg_1e6 \
+  --model_name_or_path /home/user_name/huggingface_models/chinese_bert_wwm \
+  --do_train \
+  --save_steps 500 \
+  --train_path /home/user_name/legal/project/pretrain_legal/process/combine_lexcial_demo/merge_pn_bm25.json \
+  --max_len 512 \
+  --pred_path /home/user_name/legal/project/pretrain_legal/data/to_be_inf/encoded_inf_chineseBert.json \
+  --fp16 \
+  --per_device_train_batch_size 2 \
+  --rank_score_path /tmp/user_name/data/0310_inf/ \
+  --gradient_accumulation_steps 8 \
+  --warmup_ratio 0.1 \
+  --weight_decay 0.01 \
+  --learning_rate 1e-6 \
+  --num_train_epochs 5 \
+  --visualize ~/pretrain_web/projects/web_pretrain/dataset/tensorboard/0921_merged_8neg_1e6 \
+  --log_ckpt /home/user_name/pretrain_web/projects/web_pretrain/dataset/results/0921_merged_8neg_1e6.csv \
+  --overwrite_output_dir
