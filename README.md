@@ -6,7 +6,7 @@
 [GitHub Link](https://github.com/oneal2000/Caseformer)
 
 <p align="center">
-  <img src="https://github.com/oneal2000/Caseformer/blob/main/pics/logo3.png" width="50%" height="auto" />
+  <img src="https://github.com/oneal2000/Caseformer/blob/main/pics/logo2.png" width="50%" height="auto" />
 </p>
 
 ```
